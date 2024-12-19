@@ -6,6 +6,9 @@ A simple survey form created as part of a research project about cats. It collec
 
 This is only my second project using HTML and CSS, made for a FreeCodeCamp project. Suggestions for improvement are welcome!
 
+## Preview
+<img width="1440" alt="Screenshot 2024-12-19 at 11 01 59 PM" src="https://github.com/user-attachments/assets/589c52f5-f280-4677-ad29-5650732736a5" />
+
 ## Form Details
 
 The form includes the following fields:
