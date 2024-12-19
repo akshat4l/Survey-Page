@@ -20,4 +20,13 @@ The form includes the following fields:
 
 ## How to Use
 
-Open the `index.html` file in a browser, fill in the form, and hit "Submit" to send your responses.
+```bash
+# Clone the repository
+git clone https://github.com/your-username/survey-form.git
+
+# Navigate into the project folder
+cd survey-form
+
+# Open the form in your browser
+open index.html   # For MacOS
+start index.html  # For Windows
