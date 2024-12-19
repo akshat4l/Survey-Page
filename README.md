@@ -21,15 +21,9 @@ The form includes the following fields:
 6. **Personality Traits** – Checkboxes to select traits like Playful, Lazy, Friendly, or Shy
 7. **Comments** – Optional text area for additional feedback
 
-## How to Use
-
-```bash
-# Clone the repository
-git clone https://github.com/your-username/survey-form.git
-
-# Navigate into the project folder
-cd survey-form
-
-# Open the form in your browser
-open index.html   # For MacOS
-start index.html  # For Windows
+### How to Use
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/yourusername/amazon-clone.git
+   ```
+2. Open `index.html` in your browser.
