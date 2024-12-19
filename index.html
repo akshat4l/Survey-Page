@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id= "description">This is a survey form for a research project about cats </p>
+    <form id="survey-form">
+        <div class="form-question"><label for="name" id="name-label">Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your name"></div>
+        <div class="form-question"> <label for="email" id="email-label">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email"></div>
+       <div class="form-question" > <label for="age" id="number-label">Age:</label>
+        <input type="number" id="number" name="age" required placeholder="Enter your age" min=18 max=60></div>
+       <div class="form-question">
+        <label for="dropdown" id="dropdown-label">Which cat do you like the most?</label>
+        <select id="dropdown" name="dropdown">
+            <option value="siamese">Siamese</option>
+            <option value="persian">Persian</option>
+        </select>
+       </div>
+       
+       <div class="form-question">
+        <label for="indoor-outdoor" id="indoor-outdoor-label"></label>
+        <p>Do you prefer indoor or outdoor?</p>
+        <input checked type="radio" name="indoor-outdoor" value="indoor" id="radioo">Indoor
+        <input type="radio" name="indoor-outdoor" value="outdoor" id="radioo">Outdoor
+    </div>
+            
+<div class="form-question">
+    <label for="personality" id="personality-label">What is your cat's personality?</label>
+    <div id="personality">
+        <input type="checkbox" name="personality" value="playful" id="check">Playful
+        <input type="checkbox" name="personality" value="lazy" id="check">Lazy
+        <input type="checkbox" name="personality" value="friendly" id="check">Friendly
+        <input type="checkbox" name="personality" value="shy" id="check">Shy
+    </div>
+</div>
+            <div class="form-question">
+                <label for="comment" id="comments-label">Any comments?</label>
+                <textarea id="comment" name="comment" rows="4" cols="50" placeholder="Enter your comments here"></textarea>
+</div>
+            <div>
+                <button id="submit" type="submit">Submit</button>
+            </div>
+
+</body>
+</html>
+
